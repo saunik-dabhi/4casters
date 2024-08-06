@@ -1,0 +1,56 @@
+import 'package:forecasters/Helper/app_constants.dart';
+import 'package:get/get.dart';
+
+class Translate extends Translations {
+  @override
+  Map<String, Map<String, String>> get keys => {
+        'en_US': {
+          AppConstants.weatherApp: "Weather App",
+          AppConstants.recentSearches: "Recent Searches",
+          AppConstants.wind: "Wind",
+          AppConstants.windText: "Today's Wind Speed",
+          AppConstants.rain: "Rain",
+          AppConstants.rainText: "Chances of Rain",
+          AppConstants.pressure: "Pressure",
+          AppConstants.pressureText: "Today's Pressure",
+          AppConstants.uvIndex: "UV Index",
+          AppConstants.uvIndexText: "Today's UV Index",
+          AppConstants.humidity: "Humidity",
+          AppConstants.humidityText: "Today's Humidity",
+          AppConstants.visibility: "Visibility",
+          AppConstants.visibilityText: "Today's Visibility",
+          AppConstants.sunrise: "Sunrise",
+          AppConstants.sunriseText: "Sunrise Time",
+          AppConstants.sunset: "Sunset",
+          AppConstants.sunsetText: "Sunset Time",
+          AppConstants.high: "High",
+          AppConstants.low: "Low",
+          AppConstants.feelsLike: "Feels Like",
+          AppConstants.changeLanguage: "Change Language",
+        },
+        'fr_FR': {
+          AppConstants.weatherApp: "Application Météo",
+          AppConstants.recentSearches: "Recherches Récentes",
+          AppConstants.wind: "Vent",
+          AppConstants.windText: "Vitesse du vent aujourd'hui",
+          AppConstants.rain: "Pluie",
+          AppConstants.rainText: "Risques de pluie",
+          AppConstants.pressure: "Pression",
+          AppConstants.pressureText: "La pression d'aujourd'hui",
+          AppConstants.uvIndex: "L'indice UV",
+          AppConstants.uvIndexText: "L'indice UV du jour",
+          AppConstants.humidity: "Humidité",
+          AppConstants.humidityText: "L'humidité du jour",
+          AppConstants.visibility: "Visibilité",
+          AppConstants.visibilityText: "La visibilité d'aujourd'hui",
+          AppConstants.sunrise: "Lever du soleil",
+          AppConstants.sunriseText: "Heure du lever du soleil",
+          AppConstants.sunset: "Coucher de soleil",
+          AppConstants.sunsetText: "Heure du coucher du soleil",
+          AppConstants.high: "Haut",
+          AppConstants.low: "Basse",
+          AppConstants.feelsLike: "On a l'impression",
+          AppConstants.changeLanguage: "Changer de langue",
+        },
+      };
+}
